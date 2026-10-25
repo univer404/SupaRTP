@@ -2,6 +2,7 @@ package com.supar.tp;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.minimessage.MiniMessage;
+import net.kyori.adventure.text.format.TextDecoration;
 import net.kyori.adventure.text.serializer.plain.PlainTextComponentSerializer;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -313,7 +314,7 @@ public final class SupaRTP extends JavaPlugin implements Listener {
     }
 
     private Component text(String input) {
-        return mini.deserialize(input == null ? "" : input);
+        return mini.deserialize(input == null ? "" : input).decoration(TextDecoration.ITALIC, false);
     }
 
     private Material material(String name, Material fallback) {
