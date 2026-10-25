@@ -1,7 +1,7 @@
 # SupaRTP GUI appearance
-# Fancy MiniMessage gradients and bold text are supported. Text is never italic.
+# Small-cap Unicode text (like ᴛᴇᴀᴍ) is used for the in-game style. Text is never italic.
 # Slots are zero-based. Inventory size must be 9, 18, 27, 36, 45, or 54.
-title: "<bold><gradient:#37BFF8:#A855F7>✦ SUPA RTP ✦</gradient></bold>"
+title: "<bold><gradient:#37BFF8:#A855F7>✦ ꜱᴜᴘᴀ ʀᴛᴘ ✦</gradient></bold>"
 size: 27
 filler:
   enabled: true
@@ -12,29 +12,29 @@ destinations:
     enabled: true
     slot: 11
     material: GRASS_BLOCK
-    name: "<bold><gradient:#55E86B:#B8FF8A>☘ OVERWORLD</gradient></bold>"
+    name: "<bold><gradient:#55E86B:#B8FF8A>☘ ᴏᴠᴇʀᴡᴏʀʟᴅ</gradient></bold>"
     lore:
-      - "<gray>Travel to a random safe location"
-      - "<gray>across the Overworld."
+      - "<gray>ᴛʀᴀᴠᴇʟ ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ꜱᴀꜰᴇ ʟᴏᴄᴀᴛɪᴏɴ"
+      - "<gray>ᴀᴄʀᴏꜱꜱ ᴛʜᴇ ᴏᴠᴇʀᴡᴏʀʟᴅ."
       - ""
-      - "<gradient:#37BFF8:#A855F7><bold>➜ CLICK TO TELEPORT</bold></gradient>"
+      - "<gradient:#37BFF8:#A855F7><bold>➜ ᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ</bold></gradient>"
   nether:
     enabled: true
     slot: 13
     material: NETHERRACK
-    name: "<bold><gradient:#FF6961:#FF9A44>🔥 THE NETHER</gradient></bold>"
+    name: "<bold><gradient:#FF6961:#FF9A44>🔥 ᴛʜᴇ ɴᴇᴛʜᴇʀ</gradient></bold>"
     lore:
-      - "<gray>Travel to a random safe location"
-      - "<gray>across the Nether."
+      - "<gray>ᴛʀᴀᴠᴇʟ ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ꜱᴀꜰᴇ ʟᴏᴄᴀᴛɪᴏɴ"
+      - "<gray>ᴀᴄʀᴏꜱꜱ ᴛʜᴇ ɴᴇᴛʜᴇʀ."
       - ""
-      - "<gradient:#37BFF8:#A855F7><bold>➜ CLICK TO TELEPORT</bold></gradient>"
+      - "<gradient:#37BFF8:#A855F7><bold>➜ ᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ</bold></gradient>"
   end:
     enabled: true
     slot: 15
     material: END_STONE
-    name: "<bold><gradient:#C4B5FD:#F0ABFC>✧ THE END</gradient></bold>"
+    name: "<bold><gradient:#C4B5FD:#F0ABFC>✧ ᴛʜᴇ ᴇɴᴅ</gradient></bold>"
     lore:
-      - "<gray>Travel to a random safe location"
-      - "<gray>across The End."
+      - "<gray>ᴛʀᴀᴠᴇʟ ᴛᴏ ᴀ ʀᴀɴᴅᴏᴍ ꜱᴀꜰᴇ ʟᴏᴄᴀᴛɪᴏɴ"
+      - "<gray>ᴀᴄʀᴏꜱꜱ ᴛʜᴇ ᴇɴᴅ."
       - ""
-      - "<gradient:#37BFF8:#A855F7><bold>➜ CLICK TO TELEPORT</bold></gradient>"
+      - "<gradient:#37BFF8:#A855F7><bold>➜ ᴄʟɪᴄᴋ ᴛᴏ ᴛᴇʟᴇᴘᴏʀᴛ</bold></gradient>"
