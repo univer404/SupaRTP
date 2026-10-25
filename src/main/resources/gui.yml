@@ -1,39 +1,40 @@
-# Fully configurable main menu.
-# Slots are zero-based. Use inventory sizes 9, 18, 27, 36, 45, or 54.
-title: "<#37BFF8>SupaRTP"
+# SupaRTP GUI appearance
+# Fancy MiniMessage gradients and bold text are supported. Text is never italic.
+# Slots are zero-based. Inventory size must be 9, 18, 27, 36, 45, or 54.
+title: "<bold><gradient:#37BFF8:#A855F7>✦ SUPA RTP ✦</gradient></bold>"
 size: 27
 filler:
   enabled: true
-  material: BLACK_STAINED_GLASS_PANE
-  name: " "
+  material: PURPLE_STAINED_GLASS_PANE
+  name: "<dark_purple> "
 destinations:
   overworld:
     enabled: true
     slot: 11
     material: GRASS_BLOCK
-    name: "<#55E86B>Overworld"
+    name: "<bold><gradient:#55E86B:#B8FF8A>☘ OVERWORLD</gradient></bold>"
     lore:
-      - "<#A7A7A7>Teleport to a random safe location"
-      - "<#A7A7A7>in the Overworld."
+      - "<gray>Travel to a random safe location"
+      - "<gray>across the Overworld."
       - ""
-      - "<#37BFF8>Click to teleport"
+      - "<gradient:#37BFF8:#A855F7><bold>➜ CLICK TO TELEPORT</bold></gradient>"
   nether:
     enabled: true
     slot: 13
     material: NETHERRACK
-    name: "<#FF6961>The Nether"
+    name: "<bold><gradient:#FF6961:#FF9A44>🔥 THE NETHER</gradient></bold>"
     lore:
-      - "<#A7A7A7>Teleport to a random safe location"
-      - "<#A7A7A7>in the Nether."
+      - "<gray>Travel to a random safe location"
+      - "<gray>across the Nether."
       - ""
-      - "<#37BFF8>Click to teleport"
+      - "<gradient:#37BFF8:#A855F7><bold>➜ CLICK TO TELEPORT</bold></gradient>"
   end:
     enabled: true
     slot: 15
     material: END_STONE
-    name: "<#C4B5FD>The End"
+    name: "<bold><gradient:#C4B5FD:#F0ABFC>✧ THE END</gradient></bold>"
     lore:
-      - "<#A7A7A7>Teleport to a random safe location"
-      - "<#A7A7A7>in The End."
+      - "<gray>Travel to a random safe location"
+      - "<gray>across The End."
       - ""
-      - "<#37BFF8>Click to teleport"
+      - "<gradient:#37BFF8:#A855F7><bold>➜ CLICK TO TELEPORT</bold></gradient>"
