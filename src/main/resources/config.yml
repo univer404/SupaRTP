@@ -17,15 +17,6 @@ radius:
   nether: 2500
   end: 2500
 
-# Height limits used for random location searches. Y is still validated for safety.
-height:
-  overworld-min:  min
-  overworld-max: max
-  nether-min:  min
-  nether-max: max
-  end-min:  min
-  end-max: max
-
 # Whether the teleport countdown should show a message in chat and action bar.
 show-chat-countdown: true
 show-actionbar-countdown: true
