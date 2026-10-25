@@ -1,0 +1,31 @@
+# SupaRTP settings
+cooldown-seconds: 120
+countdown-seconds: 5
+movement-cancel-distance: 0.5
+random-location-attempts: 80
+
+# World names must match the worlds loaded by your server.
+worlds:
+  overworld: world
+  nether: world_nether
+  end: world_the_end
+
+# Random radius in blocks from world spawn. The world border is also respected.
+# Nether and End use their configured world's border and these radii.
+radius:
+  overworld: 5000
+  nether: 2500
+  end: 2500
+
+# Height limits used for random location searches. Y is still validated for safety.
+height:
+  overworld-min:  min
+  overworld-max: max
+  nether-min:  min
+  nether-max: max
+  end-min:  min
+  end-max: max
+
+# Whether the teleport countdown should show a message in chat and action bar.
+show-chat-countdown: true
+show-actionbar-countdown: true
