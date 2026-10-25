@@ -237,9 +237,16 @@ public final class SupaRTP extends JavaPlugin implements Listener {
                 minY = Math.max(minY, 32);
                 maxY = Math.min(maxY, 118);
             }
-            int y = world.getHighestBlockYAt(blockX, blockZ);
-            y = Math.max(minY, Math.min(maxY, y));
-            Location candidate = new Location(world, blockX + 0.5, y + 1, blockZ + 0.5);
+            Location candidate;
+            if (world.getEnvironment() == World.Environment.NETHER) {
+                // Avoid the bedrock roof: sample a position in the playable Nether height range.
+                int y = ThreadLocalRandom.current().nextInt(minY, maxY + 1);
+                candidate = new Location(world, blockX + 0.5, y, blockZ + 0.5);
+            } else {
+                int y = world.getHighestBlockYAt(blockX, blockZ);
+                if (y < minY || y > maxY) continue;
+                candidate = new Location(world, blockX + 0.5, y + 1, blockZ + 0.5);
+            }
             if (isSafe(candidate)) return candidate;
         }
         return null;
